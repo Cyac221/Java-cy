@@ -20,6 +20,5 @@ public class Main {
         //Leer escanner
 
         numero=promedio.leerVector(n);
-
     }
 }
