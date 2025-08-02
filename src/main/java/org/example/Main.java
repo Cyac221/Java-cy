@@ -16,6 +16,10 @@ public class Main {
         System.out.print("Cuantos elementos tiene el vector?  ");
         n = scanner.nextInt();
         int[] numero=new int[n];
+        
+        //Leer escanner
+
+        numero=promedio.leerVector(n);
 
     }
 }
