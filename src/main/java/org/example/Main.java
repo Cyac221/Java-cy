@@ -10,6 +10,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Promedio promedio = new Promedio();
         //Definir variables
+        float prom;
 
         int n;
         //Leer el tamaño del vector
@@ -20,8 +21,11 @@ public class Main {
         //Leer escanner
 
         numero=promedio.leerVector(n);
+    //Hallar promedio
 
-        promedio = promedio.hallarPromedio(n,)
+        prom = promedio.hallarPromedio(n,numero);
+
+        System.out.print("El promedio de los elementos es: "+ prom);
     }
 
 }
